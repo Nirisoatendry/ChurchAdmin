@@ -12,11 +12,11 @@ import { SidemenuComponent } from 'src/app/features/sidemenu/sidemenu.component'
     PageLayoutComponent,
     HeaderComponent,
     SidemenuComponent
-
   ],
   imports: [
     CommonModule,
-    PageLayoutRoutingModule
+    PageLayoutRoutingModule,
+    
   ]
 })
 export class PageLayoutModule { }

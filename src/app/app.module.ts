@@ -3,18 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './features/header/header.component';
-import { SidemenuComponent } from './features/sidemenu/sidemenu.component';
+import { PageLayoutModule } from './pages/page-layout/page-layout.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    SidemenuComponent
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PageLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
